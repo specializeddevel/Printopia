@@ -21,6 +21,7 @@ import tech.nocountry.printopia.persistence.enums.Role;
 @Table(name = "User")
 @Entity
 public class User {
+    //entidad para la gestion de usuarios del sistema
     @Id
     @SequenceGenerator(
             name = "userIdSequence",
