@@ -19,6 +19,7 @@ import tech.nocountry.printopia.persistence.enums.Role;
 @Table(name = "user")
 @Entity
 public class User {
+    //entidad para la gestion de usuarios del sistema
     @Id
     @Column(length = 50)
     @NotBlank(message = "cannot be null or blank")
